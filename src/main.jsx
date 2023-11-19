@@ -1,14 +1,18 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
-
-import Home from './pages/Home.jsx'
-import AboutMe from './pages/AboutMe.jsx'
-import Projects from './pages/Projects.jsx'
-import ContactMe from './pages/ContactMe.jsx'
-import Resume from './pages/Resume.jsx'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import './App.css'
+
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+import App from './App'
+import Home from './pages/Home'
+import AboutMe from './pages/AboutMe'
+import Projects from './pages/Projects'
+import ContactMe from './pages/ContactMe'
+import Resume from './pages/Resume'
+import NotFound from './pages/Error'
+
 
 const router = createBrowserRouter([
   {
@@ -17,7 +21,7 @@ const router = createBrowserRouter([
     errorElement: <NotFound />,
     children: [
       { 
-        path: '/', 
+        index: true, 
         element: <Home /> 
       },
       { 
@@ -43,3 +47,4 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
 )
+
