@@ -1,0 +1,6 @@
+// use regex to check for valid email address
+export const validEmail = (email) => {
+    const re = /\S+@\S+\.\S+/;
+    return re.test(email);
+    };
+
