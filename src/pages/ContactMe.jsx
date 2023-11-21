@@ -26,7 +26,7 @@ export default function ContactMe() {
   return (
     <section className="d-flex">
       <div className="mt-5 col-xl-4 col-md-6 col-12 border container text-center">
-        <h1>CONTACT ME:</h1>
+        <h1>Contact Me:</h1>
         <form
           action="https://formsubmit.co/stevenbunde2020@gmail.com"
           method="POST"
