@@ -1,18 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+
 import './App.css'
-
-
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import App from './App'
 import AboutMe from './pages/AboutMe'
 import Projects from './pages/Projects'
-import ContactMe from './pages/ContactMe'
+import Contact from './pages/Contact'
 import Resume from './pages/Resume'
 import NotFound from './pages/Error'
-
 
 const router = createBrowserRouter([
   {
@@ -29,8 +27,8 @@ const router = createBrowserRouter([
         element: <Projects /> 
       },
       { 
-        path: '/ContactMe', 
-        element: <ContactMe /> 
+        path: '/Contact', 
+        element: <Contact /> 
       },
       { 
         path: '/Resume', 

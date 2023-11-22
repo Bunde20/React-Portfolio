@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { validEmail } from '../utils/helpers';
 
-export default function ContactMe() {
+export default function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -78,7 +78,7 @@ export default function ContactMe() {
             type="text"
             placeholder="message"
           />
-            <button className="btn btn-dark" type="submit" disabled={!email && name && message}>
+            <button className="btn btn-dark" type="submit" disabled={!email || !name || !message}>
             Submit
             </button>
         </form>
