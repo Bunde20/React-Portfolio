@@ -1,14 +1,6 @@
 export default function Resume() {
   return (
     <div className="container-fluid col-12">
-      <a
-        className="fs-5"
-        href="/assets/resume.pdf"
-        download="steven-bunde-resume"
-      >
-        Download resume
-      </a>
-
       <h1>Steven Bunde</h1>
       <p>
         Dedicated and results-oriented professional with a proven background in
@@ -62,6 +54,13 @@ export default function Resume() {
         As a head coach I have supervised staff, aided in development, managed inventory, and executed company-wide decisions
         in a fast-paced, high-energy environment designed for client satisfaction.{' '}
       </p>
+      <a
+        className="fs-5"
+        href="/assets/resume.pdf"
+        download="steven-bunde-resume"
+      >
+        Download full resume
+      </a>
     </div>
   );
 }

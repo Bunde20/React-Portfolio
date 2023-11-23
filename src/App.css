@@ -21,6 +21,7 @@ p, h1, h2, a, li, svg {
 
 #fullNav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: .1rem;
@@ -62,11 +63,21 @@ a:hover {
     margin: 0 auto;
 }
 
-#project-card {
+#project-card, #contact {
     border: 2px solid #FF6969 !important;
 }
 
 #project-card:hover {
     transform: scale(1.05);
     transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 625px) {
+    #fullNav {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
 }

@@ -25,12 +25,12 @@ export default function Contact() {
 
   return (
     <section className="d-flex">
-      <div className="mt-5 col-xl-4 col-md-6 col-12 border container text-center">
+      <div className="col-xl-4 col-md-6 col-12 border container text-center" id="contact">
         <h1>Contact Me:</h1>
         <form
           action="https://formsubmit.co/stevenbunde2020@gmail.com"
           method="POST"
-          className="form d-flex flex-column"
+          className="form d-flex flex-column mb-3"
           onSubmit={handleFormSubmit}
         >
           <input

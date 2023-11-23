@@ -5,7 +5,9 @@ function NavTabs() {
 
   return (
   <div id="fullNav" className="container-fluid border-bottom"> 
-    <h2>Steven Bunde</h2>
+    <div class="name">
+          <h2>Steven Bunde</h2>
+    </div>
     <span id="dpl-navbar-new-right-buttons" className="navbar-nav ms-auto d-flex flex-row"></span>
     <ul className="nav nav-flex-icons ml-auto ms-auto flex-row">
       <li className="nav-item">
