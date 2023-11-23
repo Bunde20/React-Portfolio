@@ -1,6 +1,6 @@
 export default function Resume() {
   return (
-    <div className="mx-auto align-items-center col-10 col-xl-4">
+    <div className="container-fluid col-12">
       <a
         className="fs-5"
         href="/assets/resume.pdf"

@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-      <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 border-top fixed-bottom">
+      <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 border-top fixed-bottom" id="footer-border">
         <ul class="nav col-md-4 justify-content-center list-unstyled d-flex">
           <li class="ms-3">
             <a class="text-body-secondary" href="#">
