@@ -1,6 +1,7 @@
 #root {
     max-width: 100%;
-    margin: 0 auto;
+    max-height: 80%;
+    margin: 0 0 40px 0;
     padding: 2rem;
     text-align: center;
 }
@@ -70,6 +71,12 @@ a:hover {
 #project-card:hover {
     transform: scale(1.05);
     transition: all 0.2s ease-in-out;
+}
+
+svg:hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
+    fill: #FF6969 !important;
 }
 
 @media (max-width: 625px) {

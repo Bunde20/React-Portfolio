@@ -48,8 +48,7 @@ export default function Resume() {
       <h4>Exercise Science {`(B.S.)`}</h4>
       <p>Florida Gulf Coast University | Fort Myers, FL | 2018</p>
       <h1>Work Experience</h1>
-      <h4>Orangetheory Fitness</h4>
-      <h4>2020-Present</h4>
+      <h4>Orangetheory Fitness {`(2020-Present)`}</h4>
       <p>
         As a head coach I have supervised staff, aided in development, managed inventory, and executed company-wide decisions
         in a fast-paced, high-energy environment designed for client satisfaction.{' '}

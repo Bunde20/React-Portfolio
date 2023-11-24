@@ -2,13 +2,13 @@ export default function Footer() {
     return (
       <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 border-top fixed-bottom" id="footer-border">
         <ul class="nav col-md-4 justify-content-center list-unstyled d-flex">
-          <li class="ms-3">
+          <li class="ms-3" id="icon">
             <a class="text-body-secondary" href="https://www.linkedin.com/in/stevenbunde/">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
-                fill="currentColor"
+                fill="#141E46"
                 class="bi bi-linkedin"
                 viewBox="0 0 16 16"
               >
@@ -16,13 +16,13 @@ export default function Footer() {
               </svg>
             </a>
           </li>
-          <li class="ms-3">
+          <li class="ms-3" id="icon" >
             <a class="text-body-secondary" href="https://github.com/Bunde20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
-                fill="currentColor"
+                fill="#141E46"
                 class="bi bi-github"
                 viewBox="0 0 16 16"
               >
