@@ -9,7 +9,7 @@ function NavTabs() {
           <h2>Steven Bunde</h2>
     </div>
     <span id="dpl-navbar-new-right-buttons" className="navbar-nav ms-auto d-flex flex-row"></span>
-    <ul className="nav nav-flex-icons ml-auto ms-auto flex-row">
+    <ul className="nav nav-flex-icons ml-auto flex-row">
       <li className="nav-item">
         <Link
           to="/"
