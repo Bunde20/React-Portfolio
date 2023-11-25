@@ -3,7 +3,7 @@ export default function Footer() {
       <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 border-top fixed-bottom" id="footer-border">
         <ul class="nav col-md-4 justify-content-center list-unstyled d-flex">
           <li class="ms-3" id="icon">
-            <a class="text-body-secondary" href="https://www.linkedin.com/in/stevenbunde/">
+            <a class="text-body-secondary" href="https://www.linkedin.com/in/stevenbunde">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"

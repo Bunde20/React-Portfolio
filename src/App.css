@@ -19,6 +19,10 @@ p, h1, h2, a, li, svg {
     color: #141E46 !important;
 }
 
+h2 {
+    margin-bottom: 18px !important;
+}
+
 
 #fullNav {
     display: flex;
