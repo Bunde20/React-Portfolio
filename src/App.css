@@ -49,7 +49,7 @@ a:hover {
     bottom: 0;
 }
 
-#card-photo {
+/* #card-photo {
     width: 100%;
     height: 45vh;
     object-fit: fill;
@@ -57,7 +57,7 @@ a:hover {
 
 .card-img-top {
     height: 80%;
-}
+} */
 
 #footer-border {
     border-top: 1.5px solid #FF6969 !important;
@@ -70,11 +70,6 @@ a:hover {
 
 #project-card, #contact {
     border: 2px solid #FF6969 !important;
-}
-
-#project-card:hover {
-    transform: scale(1.05);
-    transition: all 0.2s ease-in-out;
 }
 
 svg:hover {
@@ -91,4 +86,73 @@ svg:hover {
         justify-content: center !important;
         align-items: center !important;
     }
+}
+
+.front,
+.back{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.front {
+    z-index: 2;
+    backface-visibility: hidden;
+}
+
+.back {
+    background-color: white;
+    backface-visibility: hidden;
+    z-index: 1;
+    transform: rotateY(180deg);
+}
+
+.container:hover .card-test{
+    transform: rotateY(180deg);
+}
+
+.container{
+    perspective: 1000px;
+}
+
+/* TEST */
+#card-photo {
+    width: 100%;
+    height: 45vh;
+    object-fit: fill;
+    position: relative;
+    z-index: 2;
+    backface-visibility: hidden;
+    
+}
+
+.card-img-top {
+    height: 100%;
+}
+
+
+#project-card:hover {
+    transform: rotateY(180deg);
+    position: relative;
+    transition: all 1s linear;
+    transform-style: preserve-3d;
+}
+
+#project-card {
+    height: 44vh;
+}
+
+.card-text {
+    max-height: 100%;
+    height: 70%;
+    margin-bottom: 15%;
+    margin-top: 15%;
+}
+
+.card-title {
+    margin-bottom: 0 !important;
 }
