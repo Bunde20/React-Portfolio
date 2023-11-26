@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
       <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 border-top fixed-bottom" id="footer-border">
-        <ul class="nav col-md-4 justify-content-center list-unstyled d-flex">
+        <ul class="nav col-md-4 justify-content-center list-unstyled d-flex flex-row">
           <li class="ms-3" id="icon">
             <a class="text-body-secondary" href="https://www.linkedin.com/in/stevenbunde" target="_blank">
               <svg
@@ -34,3 +34,6 @@ export default function Footer() {
       </footer>
     );
 }
+
+//q: how do i stop the footer icons from stacking on smaller screens?
+//a: use flex-wrap: nowrap; on the footer class
