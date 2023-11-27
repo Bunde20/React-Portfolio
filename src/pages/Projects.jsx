@@ -6,7 +6,7 @@ export default function Projects() {
           <div class="col mb-4">
             <div class="card" id="project-card">
               <img
-                src="src\assets\digital-marketing-meeting.jpg"
+                src="src/assets/digital-marketing-meeting.jpg"
                 class="card-img-top"
                 alt="..."
               />
@@ -38,7 +38,7 @@ export default function Projects() {
           <div class="col mb-4">
             <div class="card" id="project-card">
               <img
-                src="src\assets\p1-mockup.png"
+                src="src/assets/p1-mockup.png"
                 class="card-img-top"
                 alt="..."
               />
@@ -73,7 +73,7 @@ export default function Projects() {
           <div class="col mb-4">
             <div class="card" id="project-card">
               <img
-                src="src\assets\p2-mockup.jpg"
+                src="src/assets/p2-mockup.jpg"
                 class="card-img-top"
                 alt="..."
               />
