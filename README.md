@@ -1,25 +1,41 @@
-# Steven Bunde's Portfolio
+# Steven Bunde's React Portfolio
 
 ## Client Needs:
-- An employer is intersted in hiring Steven Bunde for their programming team. Information about Steven along with any deployed applications are displayed on an organized webpage.
+- An employer is intersted in hiring Steven Bunde for their programming team. Information about Steven along with any deployed applications are displayed on an organized webpage using React.
 
 ## Acceptance Criteria:
-- The employer should be able to view information and previous projects.
-    - To fulfill this, a webpage was created with links and information about Steven Bunde and his work.
-- Steven's name should be displayed, links should navigate to proper sections, and there should be a contact me section.
-    - This was done by creating a navigation bar at the top of the screen including Steven's name and links to sections on the page. The very bottom of the screen includes contact information to get in touch with the devloper.
-- Navigation links should direct the focus to the corresponding section.
-    - The navigation bar contains selectable links to redirect the possible employer to the desired area of the page.
-- The first application in the work section should contain the largest image and direct the user to a published page.
-    - The top image is selectable and will redirect the user to a deployed application entitled "Horiseon Boosts Business".
-- When the page is resized, there should be responsiveness in the layout for an ease of access on multiple devices.
-    - As the width is decreased, the page will remove and refocus different aspects of the page for efficient navigation.
+- **WHEN** I load the portfolio
+  - **THEN** I am presented with a page containing a header, a section for content, and a footer
+- **WHEN** I view the header
+  - **THEN** I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
+- **WHEN** I view the navigation titles
+  - **THEN** I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
+- **WHEN** I click on a navigation title
+  - **THEN** I am presented with the corresponding section below the navigation without the page reloading, and that title is highlighted
+- **WHEN** I load the portfolio the first time
+  - **THEN** the About Me title and section are selected by default
+- **WHEN** I am presented with the About Me section
+  - **THEN** I see a recent photo or avatar of the developer and a short bio about them
+- **WHEN** I am presented with the Portfolio section
+  - **THEN** I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
+- **WHEN** I am presented with the Contact section
+  - **THEN** I see a contact form with fields for a name, an email address, and a message
+- **WHEN** I move my cursor out of one of the form fields without entering text
+  - **THEN** I receive a notification that this field is required
+- **WHEN** I enter text into the email address field
+  - **THEN** I receive a notification if I have entered an invalid email address
+- **WHEN** I am presented with the Resume section
+  - **THEN** I see a link to a downloadable resume and a list of the developer’s proficiencies
+- **WHEN** I view the footer
+  - **THEN** I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
+
 
 ## Usage:
-![Project Template](https://github.com/Bunde20/Steven-Bundes-Portfolio/assets/135177057/8c1c5924-51bc-4cfa-ad72-a19b5c6d72a2)
+![react-mockup](https://github.com/Bunde20/React-Portfolio/assets/135177057/211cf5ea-615d-4361-931e-e17b6ad579d4)
+
 
 ## Deployed Application Link:
-Here is a link to the deployed application: https://bunde20.github.io/Steven-Bundes-Portfolio/
+Here is a link to the deployed application: [https://bunde20.github.io/Steven-Bundes-Portfolio/](https://steven-bundes-portfolio.netlify.app/)
 
 
 
