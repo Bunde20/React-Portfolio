@@ -47,7 +47,7 @@ export default function AboutMe() {
 
         <div className="col-md-3">
           <img
-            src="./src/assets/Steven.png"
+            src="assets/Steven.png"
             className="img-fluid"
             alt="Steven"
           />
