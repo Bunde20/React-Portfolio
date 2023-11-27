@@ -22,7 +22,7 @@ export default function Resume() {
       </p>
       <a
         className="fs-5"
-        href="src/assets/Steven-Bunde-Resume.pdf"
+        href="./src/assets/Steven-Bunde-Resume.pdf"
         download="steven-bunde-resume"
       >
         Download full resume
